@@ -26,8 +26,46 @@
     <h2>Création d'une application Symfony avec Symfony CLI</h2>
 
   <p>
-    La création d'un projet Symfony via Symfony CLI se fait en deux temps . Tou d'abord, il faudra installer Symfony CLI sur notre machine. Ensuite , grace à ce programme, nous pourrons créer noàos applications Web.
-    Symfony CLI (Command Line Interface) est uin outil de développemnet qui nous aide à construire, exécuter et gérer nos applications Symfony directement depuis notre terminal. il est open source, fonctionne avec MacOs, Windows et Linux. Comme nous l'installons globalement à notre machine, nous ne devons l'installer qu'une seule fois sur notre système. cet outil nous simplifiera énormement le développement par la suite , donc il est fortement recommandé de l'installer.
+    La création d'un projet Symfony via Symfony CLI se fait en deux temps . Tou d'abord, il faudra installer Symfony CLI sur notre machine. Ensuite , grace à ce programme, nous pourrons créer nos applications Web.
+    Symfony CLI (Command Line Interface) est un outil de développement qui nous aide à construire, exécuter et gérer nos applications Symfony directement depuis notre terminal. il est open source, fonctionne avec MacOs, Windows et Linux. Comme nous l'installons globalement à notre machine, nous ne devons l'installer qu'une seule fois sur notre système. cet outil nous simplifiera énormement le développement par la suite , donc il est fortement recommandé de l'installer.
   </p>
+
+  <h2>Les démarches de création d'un projet avec CLI</h2>
+    CLI = (Commande Line Interface)
+<p>
+    Pour télécharger Symfony , il faut se rendre sur le site officiel de symfony: 
+    https:/symfony.com  puis ==> DOWNLOAD
+  le téléchargement se fait selon notre système d'exploitation, dans le cas de "WINDOWS" /
+   scoop install symfony-cli
+   Binaries
+  Download binaries from GiHub 386 
+
+  * Après avoir téléchargé le client "symfony" en tant que dossier copressé.
+  * on copie ce dossier compressé
+  * Dans le disque Local (c), on va dans "programes",
+  * dans "programmes" on va créer un dossier on cliquant sur "nouveau dossier", puis on le nomme "symfony"
+  * On colle le dossier compressé dans le dossier "symfony"
+  * L'étape suivante consiste à extraire (Décompresser)
+ le contenu du dossier "symfony" 
+
+   ** pour extrairenle dossier , le système  utilise le logiciel "WinRAR ZIP" si c'est une nouvelle installation, sinon il faut telecharger un logiciel qui s'occupera de ca.
+
+  *La decompression donne naissance à Trois dossier :
+                ¤ LICENSE
+                ¤ README.md 
+                ¤ Symfony
+  </p>
+
+<h2>Cogigurations des variavles de l'environnement</h2>
+    <p>
+
+   * On commence par copier le chemin du dossier "C:\Program Files\symfony" affiché dans la barre de recherche.
+    *Dans la barre de recherche 'windows' on tappe "env", pour aller "modifier les variables de l'nvironnement du système"
+      
+      
+  
+  
+</p>
+    
   </body>
 </html>
