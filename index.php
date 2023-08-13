@@ -61,6 +61,16 @@
 
    * On commence par copier le chemin du dossier "C:\Program Files\symfony" affiché dans la barre de recherche.
     *Dans la barre de recherche 'windows' on tappe "env", pour aller "modifier les variables de l'nvironnement du système"
+
+      => on clique sur les variables de l'environnement
+      => on selectinne "path"
+      => on clique sur "nouveau"
+      => on colle le "chemin de symfony"
+      => on appuie sur "ok" pour ajouter le chemin.
+
+      * On va maintenant relancer l'invite de commande 
+      * Sur le terminal , on saisi "symfony" pour découvrir que le système  détécte "symfony"
+      * Si on saisi "symfony version" , le système renvoie le version de symfony qui a été téléchargé
       
       
   
