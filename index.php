@@ -95,9 +95,26 @@
 
       le terminal nous affiche que le projet a bien demarré, et il nopus fourni une adresse du genre : http://127.0.0.1:8000
       * Cette adresse sert a acceder a notre projet en ligne.
-      
-      
     </p>
+
+    <h2>Réactivation de l'invite de commande </h2>*
+
+    Après avoir créer le projet , l'invite de commande n'est plus accessible.
+
+    On commence par fermer la ligne de commande en tapant (ctrl+C)
+    La commande "symfony serve -d" sert a redemarrer l'invite de commande .
+
+    On remarque que l'adresse du projet n'est pas securisée avec "http" 
+
+    deux commande a taper pour sécuriser :
+
+    => symfony server:ca:install
+    =>symfony serve -d
+
+    génére une adresse sécurisée: https:/127.0.0.1:8000
+
+    
+    
     
   </body>
 </html>
