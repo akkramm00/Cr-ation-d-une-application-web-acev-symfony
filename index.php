@@ -56,7 +56,7 @@
                 ¤ Symfony
   </p>
 
-<h2>Cogigurations des variavles de l'environnement</h2>
+<h2>Configuration des variables de l'environnement</h2>
     <p>
 
    * On commence par copier le chemin du dossier "C:\Program Files\symfony" affiché dans la barre de recherche.
@@ -70,12 +70,34 @@
 
       * On va maintenant relancer l'invite de commande 
       * Sur le terminal , on saisi "symfony" pour découvrir que le système  détécte "symfony"
-      * Si on saisi "symfony version" , le système renvoie le version de symfony qui a été téléchargé
-      
-      
-  
-  
+      * Si on saisi "symfony version" , le système renvoie le version de symfony qui a été téléchargée.
 </p>
+
+    <h2>CREATION NEW SYMFONY APPLICATION</h2>
+
+    <p>
+      Deux possiblités s'offrent à nous lorsque l'on veut créer une application Symfony
+
+      => symfony new --webapp my_project
+      Cette commande est utilisée si on veut créer une application web tradionnelle(monolytique)
+
+      => symfony new my_project
+      Cette commande est utilisée si on veut créer un microservice (microframework), console application ou API
+
+      * pour cette deuxième option :
+      Sur l'invite de commande , on se met sur le dossier qui hébérge notre projet (dans le cas de wamp ===  wwww)
+      ==ca donne : wamp64\www\symfony new microTest <!-- commande qui peremt d'initier un new project-->
+      === confirmation :ok your project is now read in C:\wamp64\www\microTest
+
+      *** pour se mettre sur le dossier microTest:
+      taper la commande : C:\wamp64\www>cd microTest
+                          C:\wamp64\www\microTest>symfony serve <!--pour demarrer le projet-->
+
+      le terminal nous affiche que le projet a bien demarré, et il nopus fourni une adresse du genre : http://127.0.0.1:8000
+      * Cette adresse sert a acceder a notre projet en ligne.
+      
+      
+    </p>
     
   </body>
 </html>
