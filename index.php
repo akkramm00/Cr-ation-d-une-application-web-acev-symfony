@@ -113,6 +113,34 @@
 
     génére une adresse sécurisée: https:/127.0.0.1:8000
 
+    symfony server:list => liste tous les  serveur en marche
+
+    <h2>Attribuer un nom de domaine à notre site via proxy </h2>
+
+    <p>
+      =>démarrage de proxy avec symfony = commande :   symfony proxy:start
+      =>attribuer un domaine : commande : symfony proxy:domain attach nomDuDomain
+
+      confirm: The proxy is now configured with the following domains for this directory
+
+      *htp://test.wip
+
+      il rteste a configurer le windows(proxy) pour pouvoir  faire fonctionner l'addresse avec le nom de domaine 
+
+      => sur la barre de recherche windows, on tape "proxy"
+      => modifier les paramètres de proxy
+      => utiliser un script d'installation = activé
+
+      http://localhost:7080/proxy.pac
+       _____________
+      | Enregistrer |
+       _____________
+
+      il ne reste qu'à raffraichir la page avec la nouvelle address avec le nom du domaine
+    </p>
+
+    
+
     
     
     
